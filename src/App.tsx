@@ -1,5 +1,6 @@
 function App() {
-  return <h1>New App template Vite + React + TS</h1>;
+  const a = 12;
+  return <h1>Hello world template with Vite + React + TS</h1>;
 }
 
 export default App;
