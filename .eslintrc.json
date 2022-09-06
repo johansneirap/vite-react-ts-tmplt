@@ -1,12 +1,14 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "jest": true
   },
   "extends": [
     "airbnb",
     "airbnb-typescript",
     "airbnb/hooks",
+    "plugin:jest/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "prettier"
@@ -53,6 +55,7 @@
     "project": ["./tsconfig.json"]
   },
   "plugins": [
+    "jest",
     "react",
     "@typescript-eslint",
     "import",
