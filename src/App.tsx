@@ -1,5 +1,6 @@
 function App() {
-  const a = 122;
+  const a = 1223;
+
   return <h1>Hello world template with Vite + React + TS</h1>;
 }
 
