@@ -8,6 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "jest",
+    "test:watch": "jest --watchAll",
     "lint": "eslint --ignore-path .gitignore . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint --fix --ignore-path .gitignore . --ext .js,.jsx,.ts,.tsx",
     "prepare": "husky install"
