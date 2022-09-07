@@ -6,4 +6,5 @@ export default {
     '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
   },
   testEnvironment: 'jest-environment-jsdom',
+  moduleDirectories: ['node_modules', 'src'],
 };
