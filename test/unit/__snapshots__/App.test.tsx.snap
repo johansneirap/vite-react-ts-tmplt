@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders hello message 1`] = `
+exports[`initial test 1`] = `
 <div>
   <h1>
     Hello world template with Vite + React + TS
