@@ -74,6 +74,7 @@
         "args": "after-used",
         "argsIgnorePattern": "^_"
       }
-    ]
+    ],
+    "prettier/prettier": ["error"]
   }
 }
